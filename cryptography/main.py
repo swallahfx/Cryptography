@@ -72,7 +72,7 @@ def cryptography():
     if re_run == "yes":
         cryptography()
     if re_run == "no":
-        print("\nTHANK YOU FOR USING OUR CRYPTOGRAPHY SERVICE. \n")
+        print("\nTHANK YOU FOR USING OUR CRYPTOGRAPHY SERVICE.  \n")
         exit()
   
   

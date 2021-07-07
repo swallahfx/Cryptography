@@ -11,8 +11,8 @@ def dict_comp(stop, step):
   key_former = [f"item - {i}" for i in (stop_step_div)]
   
   #forming dict values
-  list3 = [i for i in stop]
-  value_former = [list3[i:i+step] for i in range(0,len(list3),step)]
+  val_origin = [i for i in stop]
+  value_former = [val_origin[i:i+step] for i in range(0,len(val_origin),step)]
 
   #dict formed
   dict_formed = {key:value for key,value in zip(key_former,value_former)}
@@ -20,5 +20,5 @@ def dict_comp(stop, step):
   return dict_formed
 
 
-dict_comp(10,3)
+print(dict_comp(10,3))
 
